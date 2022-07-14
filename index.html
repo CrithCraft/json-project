@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Вспомогательные скрипты -->
+    <script src="../static/js/3rdparty/jquery-3.3.1.min.js"></script>
+    <script src="../static/js/3rdparty/lodash4.17.11.min.js"></script>
+    <!-- Подключаем файлы стилей -->
+    <link rel="stylesheet" href="static/styles/styles.css">
+<body>
+    <!-- Выпадающее меню для выбора параметров -->
+    <label for="database">Выберите значение:</label>
+    <select name="database" id="database" onchange="selectOption()">
+        <option value="nothing" disabled selected>выберите один из вариантов</option>
+        <option value="power">мощность двигателя</option>
+        <option value="users">количество пасажиров</option>
+        <option value="screen">диагональ экрана</option>
+        <option value="cores">количество ядер</option>
+        <option value="memory">объём памяти</option>
+    </select>
+    <!-- Поле для вывода результатов -->
+    <div id="resultArea"></div>
+    <!-- Подключение основного скрипта -->
+    <script src="static/js/app.js"></script>
+</head>
+</body>
+</html>

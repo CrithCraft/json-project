@@ -1,0 +1,32 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-top: 2px solid seagreen;
+    margin: 0px;
+    
+    /* background-color: lightblue; */
+    background-image: radial-gradient(seagreen 0.5px, white 0.5px);
+    background-size: 10px 10px;
+}
+
+* {
+    margin: 8px;
+}
+
+label {
+    font-weight: 600;
+}
+
+#database {
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    font-size: 0.9em;
+}
+
+#resultArea {
+    font-style:italic;
+}

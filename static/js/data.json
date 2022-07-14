@@ -1,0 +1,16 @@
+{
+"car": {
+    "power": 150,
+    "users": 7,
+    "screen": 8
+},
+"pc": {
+    "cores": 8,
+    "memory": 32
+},
+"phone": {
+    "screen": 6,
+    "memory": 16,
+    "cores": 4
+}
+}
